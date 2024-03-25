@@ -58,27 +58,28 @@
 
 // // Question # 6 (a)
 
+// document.write("<h1>Counting</h1>")
 // for (var i=1; i<=15; i++){
 //     document.write(i + ",")
 // }
 
 // // Question # 6 (b)
-
+// document.write("<h1> Reverse Counting</h1>")
 // for (var i=10; i>=1; i--){
 //     document.write(i + ",")
 // }
 
 
 // // Question # 6 (c)
-
+// document.write("<h1> Even No.s</h1>");
 // for (var i=0; i<=20; i++){
 //     if(i % 2 === 0){
 
-//     document.write(i + ",")}
+//     document.write(i + ",")} 
 // }
 
 // // Question # 6 (d)
-
+// document.write("<h1> Odd No.s</h1>");
 // for (var i=0; i<=20; i++){
 //     if(i % 2 !== 0){
 
@@ -87,7 +88,7 @@
 
 
 // // Question # 6 (e)
-
+// document.write("<h1> Series</h1>");
 // for (var i=1; i<=20; i++){
 //     if(i % 2 === 0){
 
@@ -95,7 +96,36 @@
 // }
 
 
+// // Question # 7
 
+// var order = prompt("Welcom to ABC Bakery.What do you want to order sir/Ma'am");
+// var arrA = ['cake','apple pie','cookie','chips','patties']
+
+
+// var itemChecked = false;
+// for(var i=0; i<arrA.length; i++){
+//     if(order===arrA[i]){
+//         itemChecked = true
+//     document.write(`<h1> ${arrA[i]}  is available at index No ${i}</h1>`);
+//     break
+
+// }
+// }
+
+// if (itemChecked === false){
+//     document.write( `<h1> ${order}  in Not Available at our Bakery</h1>`);
+// }
+
+// // Question # 8
+// // Question # 9
+
+
+
+// // Question # 10
+
+// for (var i=5; i<=100; i=i+5){
+//     document.write(i + ",")
+// }
 
 
     
