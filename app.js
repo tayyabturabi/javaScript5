@@ -5,6 +5,23 @@
 
 
 
+var rows = 3;
+var cols = 3;
+
+var emptyArray = [];
+
+for (var i = 0; i < rows; i++) {
+    emptyArray[i] = []; 
+    for (var j = 0; j < cols; j++) {
+        emptyArray[i][j] = 1; 
+    }
+}
+
+console.log(emptyArray);
+
+
+
+
 
 
 // // Question # 2
@@ -118,11 +135,32 @@
 
 // // Question # 8
 
- var A = [24,53,78 ,91,12] 
-// // Question # 9
+// var A = [24, 53, 78, 91, 12];
+// var largestNo = A[0];
+
+// for (var i = 1; i < A.length; i++) {
+//     if (A[i] > largestNo) {
+//         largestNo = A[i];
+//     }
+// }
+
+// document.write(largestNo);
 
 
 
+ // // Question # 9
+
+//  var A = [24, 53, 78, 91, 12];
+//  var smallestNo = A[0];
+ 
+//  for (var i = 1; i < A.length; i++) {
+//      if (A[i] < smallestNo) {
+//          smallestNo = A[i];
+//      }
+//  }
+ 
+//  document.write(smallestNo);
+ 
 // // Question # 10
 
 // for (var i=5; i<=100; i=i+5){
