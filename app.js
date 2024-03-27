@@ -5,19 +5,19 @@
 
 
 
-var rows = 3;
-var cols = 3;
+// var rows = 3;
+// var cols = 3;
 
-var emptyArray = [];
+// var emptyArray = [];
 
-for (var i = 0; i < rows; i++) {
-    emptyArray[i] = []; 
-    for (var j = 0; j < cols; j++) {
-        emptyArray[i][j] = 1; 
-    }
-}
+// for (var i = 0; i < rows; i++) {
+//     emptyArray[i] = []; 
+//     for (var j = 0; j < cols; j++) {
+//         emptyArray[i][j] = 1; 
+//     }
+// }
 
-console.log(emptyArray);
+// console.log(emptyArray);
 
 
 
@@ -148,7 +148,9 @@ console.log(emptyArray);
 
 
 
- // // Question # 9
+
+
+// // Question # 9
 
 //  var A = [24, 53, 78, 91, 12];
 //  var smallestNo = A[0];
@@ -161,6 +163,13 @@ console.log(emptyArray);
  
 //  document.write(smallestNo);
  
+
+
+
+
+
+
+
 // // Question # 10
 
 // for (var i=5; i<=100; i=i+5){
